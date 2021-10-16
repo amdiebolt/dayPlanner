@@ -9,7 +9,6 @@ var futureEl = document.querySelector('.future')
 
  $(document).ready(function(){
 
-//Creates a save button event listener to add text to local storage
  $(".saveBtn").on("click", function(event){
      var toDo = $(this).siblings('textarea').val()
      console.log(toDo)
@@ -19,13 +18,13 @@ var futureEl = document.querySelector('.future')
 
 })
 
-//Tracks time of day and colors time blocks accordingly
+
  function timeOfDay(){
 
    
     $("textarea").each(function () {
     var rightNow = parseInt(moment().format('H'))
-    var timeBlock = parseInt($(this).attr(".hour"))
+    var timeBlock = parseInt($(this).attr("id"))
         if(rightNow > timeBlock){
           $(this).addClass('past')
     }
@@ -42,7 +41,6 @@ var futureEl = document.querySelector('.future')
     
 })}
 
-//Retrieves strings in local storage and adds them to indicated text blocks
 $('#9').val(localStorage.getItem('9 am'))
 $('#10').val(localStorage.getItem('10 am'))
 $('#11').val(localStorage.getItem('11 am'))
