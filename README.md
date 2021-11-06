@@ -26,3 +26,7 @@
 
 ##Screenshot
 ![dayPlanner](https://user-images.githubusercontent.com/89421292/137593511-4f84f009-f7d2-47b8-bd2b-fb6d0c3042a0.PNG)
+
+##License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
