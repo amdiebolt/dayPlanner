@@ -26,6 +26,7 @@
 
 ##Screenshot
 ![dayPlanner](https://user-images.githubusercontent.com/89421292/137593511-4f84f009-f7d2-47b8-bd2b-fb6d0c3042a0.PNG)
+![dayplanner2](https://user-images.githubusercontent.com/89421292/140620559-500ec008-8bed-4f5b-8931-4c06d2984819.PNG)
 
 ##License
 
